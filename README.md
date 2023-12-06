@@ -12,7 +12,9 @@ Benvenuto ain PokePlay! Questo programma ti consente di giocare ai Pokémon util
 
 ### Step 1: Installazione del gioco e dell'emulatore
 1. Scarica il gioco Pokémon e l'emulatore compatibile con il tuo sistema operativo.
-2. Assicurati di salvare entrambi i file nella cartella `game` sul tuo computer.
+   Andare sul sito https://www.emulator-zone.com/doc.php/gba/vboyadvance.html, per scaricare l'eumulatore
+   Andare sul sito https://wowroms.com/en/roms/nintendo-gameboy-advance/pokemon-versione-rosso-fuoco-italy/13851.html, per scaricare il gioco
+3. Assicurati di salvare entrambi i file nella cartella `game` sul tuo computer.
 
 ### Step 2: Aprire la guida
 1. Naviga nella cartella game.
