@@ -18,7 +18,7 @@ Benvenuto ain PokePlay! Questo programma ti consente di giocare ai Pokémon util
 1. Naviga nella cartella game.
 2. Cerca e apri il file denominato "guida.png".
 
-![Comandi Vocali](guida.png)
+![Comandi Vocali](game/guida.png)
 *Immagine dei Comandi Vocali*
 
 ### Step 3: Avviare il gioco utilizzando la voce
