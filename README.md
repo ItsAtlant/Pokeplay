@@ -9,12 +9,14 @@ Benvenuto ain PokePlay! Questo programma ti consente di giocare ai Pokémon util
 - Capacità di seguire istruzioni vocali
 
 ## Istruzioni
+### Step 1: Scaricamento del gioco e dell'emulatore
 
-### Step 1: Installazione del gioco e dell'emulatore
-1. Scarica il gioco Pokémon e l'emulatore compatibile con il tuo sistema operativo.
-   Andare sul sito https://www.emulator-zone.com/doc.php/gba/vboyadvance.html, per scaricare l'eumulatore
-   Andare sul sito https://wowroms.com/en/roms/nintendo-gameboy-advance/pokemon-versione-rosso-fuoco-italy/13851.html, per scaricare il gioco
-3. Assicurati di salvare entrambi i file nella cartella `game` sul tuo computer.
+1. Visita il sito [Emulator Zone - VisualBoyAdvance](https://www.emulator-zone.com/doc.php/gba/vboyadvance.html) per scaricare l'emulatore compatibile con il tuo sistema operativo.
+
+2. Successivamente, dirigi il tuo browser verso [WowROMs - Pokémon Versione Rosso Fuoco](https://wowroms.com/en/roms/nintendo-gameboy-advance/pokemon-versione-rosso-fuoco-italy/13851.html) per scaricare il gioco Pokémon.
+
+3. Una volta scaricati entrambi i file, assicurati di salvare sia l'emulatore che il gioco nella cartella denominata `game` sul tuo computer.
+
 
 ### Step 2: Aprire la guida
 1. Naviga nella cartella game.
@@ -25,8 +27,9 @@ Benvenuto ain PokePlay! Questo programma ti consente di giocare ai Pokémon util
 
 ### Step 3: Avviare il gioco utilizzando la voce
 1. Assicurati che il tuo microfono sia collegato e funzionante.
-2. Eseguire `main.exe`.
-3. Segui le istruzioni vocali per iniziare a giocare.
+2. Estrarre la cartella main.
+3. Eseguire `main.exe`.
+4. Segui le istruzioni vocali per iniziare a giocare.
    
 
 ## Note aggiuntive
