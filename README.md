@@ -26,11 +26,17 @@ Benvenuto ain PokePlay! Questo programma ti consente di giocare ai Pokémon util
 *Immagine dei Comandi Vocali*
 
 ### Step 3: Avviare il gioco utilizzando la voce
+
 1. Assicurati che il tuo microfono sia collegato e funzionante.
-2. Scaricare lo zip main.exe collegato a questo [link] (https://drive.google.com/file/d/14aw8u-e61qlxMPPb8kdUA1hE1yn3oSYr/view?usp=sharing)
-2. Estrarre la cartella main.
-3. Eseguire `main.exe`.
-4. Segui le istruzioni vocali per iniziare a giocare.
+
+2. [Scarica il file main.exe da questo link](https://drive.google.com/file/d/14aw8u-e61qlxMPPb8kdUA1hE1yn3oSYr/view?usp=sharing).
+
+3. Una volta scaricato, estrai il contenuto dello zip nella cartella desiderata sul tuo computer.
+
+4. Trova e esegui il file `main.exe`.
+
+5. Segui le istruzioni vocali per iniziare a giocare.
+
    
 
 ## Note aggiuntive
