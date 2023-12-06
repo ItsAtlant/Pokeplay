@@ -1,9 +1,7 @@
 import speech_recognition
 import pyautogui
 import os
-from PIL import ImageGrab
 import sys
-import numpy as np
 recogniser = speech_recognition.Recognizer()
 
 times = 1
@@ -21,24 +19,24 @@ comandi = {
 }
 #start program
 def program():
-    os.startfile(r"C:\Users\david\Desktop\programming\pokemonplay\game\visualboyadvance-m.exe")
+    os.startfile(r"game\visualboyadvance-m.exe")
     pyautogui.sleep(2)
-    coordinate = pyautogui.locateOnScreen(r"C:\Users\david\Desktop\programming\pokemonplay\source\argomenti advanced.PNG")
+    coordinate = pyautogui.locateOnScreen(r"source\argomenti advanced.PNG")
     pyautogui.sleep(1)
     pyautogui.moveTo(coordinate)
     pyautogui.sleep(1)
     pyautogui.leftClick(coordinate)
     pyautogui.sleep(1)
-    coordinate = pyautogui.locateOnScreen(r"C:\Users\david\Desktop\programming\pokemonplay\source\Open.PNG")
+    coordinate = pyautogui.locateOnScreen(r"source\Open.PNG")
     pyautogui.sleep(1)
     pyautogui.moveTo(coordinate)
     pyautogui.sleep(1)
     pyautogui.leftClick(coordinate)
     pyautogui.sleep(1)
     try:
-        coordinate = pyautogui.locateOnScreen(r"C:\Users\david\Desktop\programming\pokemonplay\source\gbaLightmode.PNG")
+        coordinate = pyautogui.locateOnScreen(r"source\gbaLightmode.PNG")
     except pyautogui.ImageNotFoundException:
-        coordinate = pyautogui.locateOnScreen(r"C:\Users\david\Desktop\programming\pokemonplay\source\gbaDarkmod.PNG")
+        coordinate = pyautogui.locateOnScreen(r"source\gbaDarkmod.PNG")
 
     pyautogui.moveTo(coordinate)
     pyautogui.click(clicks=2, button='left')
@@ -50,28 +48,28 @@ def program():
 def save():
     pyautogui.leftClick()
     try:
-        coordinate = pyautogui.locateOnScreen(r"C:\Users\david\Desktop\programming\pokemonplay\source\consoleDarkmode.PNG")
+        coordinate = pyautogui.locateOnScreen(r"source\consoleDarkmode.PNG")
     except pyautogui.ImageNotFoundException:
-        coordinate = pyautogui.locateOnScreen(r"C:\Users\david\Desktop\programming\pokemonplay\source\consoleLightmod.PNG")
+        coordinate = pyautogui.locateOnScreen(r"source\consoleLightmod.PNG")
     pyautogui.moveTo(coordinate)
-    coordinate = pyautogui.locateOnScreen(r"C:\Users\david\Desktop\programming\pokemonplay\source\argomenti advanced.PNG")
+    coordinate = pyautogui.locateOnScreen(r"source\argomenti advanced.PNG")
     pyautogui.sleep(1)
     pyautogui.moveTo(coordinate)
     pyautogui.sleep(1)
     pyautogui.leftClick(coordinate)
 
-    coordinate = pyautogui.locateOnScreen(r"C:\Users\david\Desktop\programming\pokemonplay\source\save.PNG")
+    coordinate = pyautogui.locateOnScreen(r"source\save.PNG")
     pyautogui.sleep(1)
     pyautogui.moveTo(coordinate)
     pyautogui.leftClick(coordinate)
-    coordinate = pyautogui.locateOnScreen(r"C:\Users\david\Desktop\programming\pokemonplay\source\f1slotsave.PNG")
+    coordinate = pyautogui.locateOnScreen(r"source\f1slotsave.PNG")
     pyautogui.moveTo(coordinate)
     pyautogui.leftClick(coordinate)
     pyautogui.sleep(1)
 
 def close():
     pyautogui.leftClick()
-    coordinate = pyautogui.locateOnScreen(r"C:\Users\david\Desktop\programming\pokemonplay\source\close.PNG")
+    coordinate = pyautogui.locateOnScreen(r"source\close.PNG")
     pyautogui.moveTo(coordinate)
     pyautogui.leftClick(coordinate)
     sys.exit()
@@ -105,3 +103,4 @@ while True:
 
     except speech_recognition.UnknownValueError:
         print("repeat pls")
+
